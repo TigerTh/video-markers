@@ -1,17 +1,25 @@
+<!--
+ * @Description: 
+ * @Author: 
+ * @Date: 2021-09-06 19:48:34
+ * @LastEditTime: 2021-09-06 20:49:51
+ * @LastEditors: Tuohaohu
+ * @Usage: 
+-->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <VideoPlayer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VideoPlayer from './components/VideoPlayer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VideoPlayer
   }
 }
 </script>
@@ -23,6 +31,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
