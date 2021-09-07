@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 
  * @Date: 2021-09-06 19:48:34
- * @LastEditTime: 2021-09-07 21:07:29
+ * @LastEditTime: 2021-09-07 21:10:48
  * @LastEditors: Tuohaohu
  * @Usage: 
 -->
@@ -196,8 +196,8 @@ export default {
     },
     OnAddMarker: function() {
       this.player.pause()
-      if(this.player.markers.getMarkers()>=this.markerCountLimit){
-          alert('标记数已达最大限制，请先删除部分编辑再尝试添加')
+      if(this.player.markers.getMarkers().length>=this.markerCountLimit){
+          alert('标记数已达最大限制，请先删除部分标记再尝试添加')
           this.player.play()
           return
       }
