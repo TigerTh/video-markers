@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 
  * @Date: 2021-09-06 19:48:34
- * @LastEditTime: 2021-09-06 20:49:51
+ * @LastEditTime: 2021-09-07 10:47:36
  * @LastEditors: Tuohaohu
  * @Usage: 
 -->
@@ -31,5 +31,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding: 50px;
+  box-sizing: border-box;
 }
 </style>

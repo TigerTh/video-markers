@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: 
  * @Date: 2021-09-06 21:08:51
- * @LastEditTime: 2021-09-06 21:08:53
+ * @LastEditTime: 2021-09-07 15:12:34
  * @LastEditors: Tuohaohu
  * @Usage: 
  */
@@ -302,7 +302,6 @@
       if (setting.markerTip.display) {
         initializeMarkerTip();
       }
-
       // remove existing markers if already initialized
       player.markers.removeAll();
       addMarkers(options.markers);
